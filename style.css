@@ -1,8 +1,38 @@
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-nav {
-    background-color: #1f2937;
+#navbar-container {
+  background-color: #1f2937;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar .container #header_logo {
+  align-self: flex-start;
+}
+
+#navbar-container a:link {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+#navbar-container a:visited {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+#navbar-container a:hover {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+#navbar-container a:active {
+  text-decoration: none;
+  color: #e5e7eb;
 }
