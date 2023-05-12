@@ -4,6 +4,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.page_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .navbar-container {
   background-color: #1f2937;
   display: flex;
@@ -118,6 +124,60 @@
 .illustration_complete span {
   text-align: center;
   color: grey;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote_container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 200px 100px 200px;
+  padding: 40px;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: center;
+  padding: 40px;
+}
+
+#cta-button {
+  text-decoration: none;
+  color: #f9faf8;
+  border-style: solid;
+  border-color: #f9faf8;
+  border-width: 2px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 6px;
+}
+
+#quote_text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0px 200px 0px 200px;
+}
+
+#signature {
+  align-self: flex-end;
+  padding-right: 200px;
+  font-size: 24px;
+  color: #1f2937;
 }
 
 #navbar-container a:link {
